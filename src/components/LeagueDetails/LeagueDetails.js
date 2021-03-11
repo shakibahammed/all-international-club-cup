@@ -27,7 +27,7 @@ const LeagueDetails = () => {
       .then(data => setDetails(data.leagues[0]))
   }, [idLeague])
 
-  const { strLeague, strCountry, strGender, intFormedYear, strSport, strLogo, strDescriptionEN, strDescriptionFR,strBanner } = details
+  const { strLeague, strCountry, strGender, intFormedYear, strSport, strLogo, strDescriptionEN, strDescriptionFR } = details
 
 
 

@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import NotFound from './components/NotFound/NotFound';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';

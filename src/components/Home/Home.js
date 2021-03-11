@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ShowLeagues from '../ShowLeagues/ShowLeagues';
 import './Home.css'
-import banner from '../../images/banner.jpg'
+
 
 const Home = () => {
     const [leagues, setLeagues] = useState([]);
