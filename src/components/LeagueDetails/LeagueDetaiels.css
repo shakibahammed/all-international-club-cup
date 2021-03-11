@@ -9,7 +9,7 @@
 .league-details{
     border: 2px solid whitesmoke;
     border-radius: 15px;
-    background-color:lightsalmon;
+    background-color:black;
    
 }
 .info{
@@ -31,7 +31,8 @@ width: 40%;
 .league-description p{
 width:100%;
 line-height:25px;
-margin: 20p
+margin: 20px;
+color: white;
 }
 .footer{
     display: flex;

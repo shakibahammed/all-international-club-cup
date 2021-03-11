@@ -32,7 +32,7 @@ const LeagueDetails = () => {
 
 
   return (
-    <div>
+    <div style={{ backgroundColor : 'tomato'}}>
       <div className="banner" >
         <img class="logo" src={strLogo} alt=""/>
       </div>
