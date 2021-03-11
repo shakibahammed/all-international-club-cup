@@ -1,0 +1,45 @@
+.logo{
+    width: 200px;
+    position:relative;
+    left: 50%;
+    top:50%;
+}
+
+
+.league-details{
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background-color:lightsalmon;
+    display: flex;
+}
+.info{
+    color: whitesmoke;
+    padding:15px;
+    margin-left: 30px;
+   
+}
+.info img{
+    width: 20px;
+}
+.gender-photo{
+ width:250px;
+}
+.gender-photo img{
+    width:100%;
+}
+
+
+.league-description p{
+width:100%;
+line-height:25px;
+margin: 20p
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+.footer img {
+    width: 50px;
+    
+}

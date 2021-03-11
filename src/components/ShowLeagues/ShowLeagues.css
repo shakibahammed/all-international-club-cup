@@ -1,0 +1,26 @@
+.leagues{
+    border: 3px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+     width: 200px;
+    border-radius: 10px;
+   
+}
+.Card{
+    margin-left: 20px;
+}
+.main-btn{
+    background-color: #3A42FF;
+    width:120px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px  gray;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.main-btn:hover{
+    background-color: tomato;
+    
+    
+}
+

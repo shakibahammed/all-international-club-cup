@@ -1,0 +1,21 @@
+.banner{
+  height: 400px;
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+    background-position:center ;
+  align-items: center;
+ 
+}
+.banner h1{
+
+    text-align: center;
+    color: rgb(236, 33, 67);
+    position: relative;
+    top: 50%;
+ 
+}
+.home-page{
+  background-color: gray;
+}
+
