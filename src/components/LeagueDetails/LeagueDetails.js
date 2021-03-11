@@ -11,7 +11,7 @@ import facebook from '../../images/Facebook.png'
 import youTube from '../../images/YouTube.png'
 import twitter from '../../images/Twitter.png'
 
-import { Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 
 const LeagueDetails = () => {
@@ -38,10 +38,9 @@ const LeagueDetails = () => {
       </div>
 
       <Container>
-        <Row>
-          <div className="league-details ">
+        <div className="league-details row">
 
-              <div className="info col-md-7 ">
+              <div className="info col-md-6 col-sm-12">
                 <h1>{strLeague}</h1>
                   <strong> <img src={found} alt=""/> Founder : {intFormedYear}</strong>
              
@@ -50,15 +49,15 @@ const LeagueDetails = () => {
                <h5>     <img src={gender} alt=""/> Gender : {strGender}</h5>
             </div>
 
-            <div className=" col-md-4 gender-photo">
+            <div className=" col-md-6 col-sm-12 gender-photo">
              
               {
                 strGender &&( strGender?.toLowerCase() === "male" ?( <img src={male} alt=""/> ) : (<img src={female} alt=""/>)  )
               }
 
             </div>
-          </div>
-        </Row>
+          
+        </div>
 
         <div className="league-description">
            <p>{strDescriptionEN}</p>

@@ -19,7 +19,7 @@ const Home = () => {
                 <h1 className="title-design">International League Cup</h1>
 
             </div>
-            <div className="all-league  row">
+            <div className="all-league  row mr-2 justify-content-center">
 
                 {
                     leagues.map(league => <ShowLeagues league={league}></ShowLeagues>)
